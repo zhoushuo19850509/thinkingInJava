@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="GBK">
+    <file url="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/typeInformation/pets/ForNameCreator.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/typeInformation/pets/PetCount.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/typeInformation/proxy/SelectingMethods.java" charset="GBK" />
+    <file url="PROJECT" charset="GBK" />
   </component>
 </project>

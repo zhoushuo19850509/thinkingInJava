@@ -6,7 +6,7 @@ import java.util.HashMap;
 
 public class PetCount {
 	
-	// PetCounter这个单独的静态类，通过一个Map，来记录各种类型Pet的数量
+	// PetCounter锟斤拷锟斤拷锟斤拷锟斤拷木锟教拷啵拷锟揭伙拷锟組ap锟斤拷锟斤拷锟斤拷录锟斤拷锟斤拷锟斤拷锟斤拷Pet锟斤拷锟斤拷锟斤拷
 	static class PetCounter extends HashMap<String ,Integer>{
 		public void count(String type){
 			Integer quantity = get(type);
@@ -18,7 +18,7 @@ public class PetCount {
 		}
 	}
 	
-	// 这个静态方法，统计PetCreator生成的实例
+	// 锟斤拷锟斤拷锟教拷锟斤拷锟斤拷锟酵筹拷锟絇etCreator锟斤拷锟缴碉拷实锟斤拷
 	public static void countPets(PetCreator creator){
 		PetCounter counter = new PetCounter();
 		for(Pet pet: creator.createArray(30)){
@@ -61,7 +61,7 @@ public class PetCount {
 			}
 		}
 		
-		// 打印最终的结构
+		// 锟斤拷印锟斤拷锟秸的结构
 		System.out.println(counter);
 	}
 	
