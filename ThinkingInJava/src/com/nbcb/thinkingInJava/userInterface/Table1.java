@@ -115,6 +115,7 @@ public class Table1 extends JFrame{
 	
 	
 	public static void main(String[] args){
+
 		SwingConsole.run(new Table1(),300 ,400);
 	}
 

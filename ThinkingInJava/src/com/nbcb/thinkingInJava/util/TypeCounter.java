@@ -1,5 +1,8 @@
 package com.nbcb.thinkingInJava.util;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class TypeCounter extends HashMap<Class<?>,Integer>{
     private Class<?> baseType;
 
@@ -22,9 +25,9 @@ public class TypeCounter extends HashMap<Class<?>,Integer>{
         Integer quantity = get(type);
         put(type,quantity == null ? 1: quantity + 1);
         Class<?> supeClass = type.getSuperclass();
-        if(supeClass != null && baseType.isAssignableFrom(superClass)){
-            countClass(superClass);
-        }
+//        if(supeClass != null && baseType.isAssignableFrom(superClass)){
+//            countClass(superClass);
+//        }
     }
 
     public String toString(){

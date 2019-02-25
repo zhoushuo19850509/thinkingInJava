@@ -6,15 +6,19 @@ public class LiftOff implements Runnable{
 	protected int countDown = 10;   // default value is 10
 	private static int taskCount = 0;  
 	private final int id = taskCount++; // 每个线程的标识ID
+
+	// empty constructor
 	public LiftOff(){
 		
 	}
-	
+
+	// constructor
 	public LiftOff(int countDown){
 		this.countDown = countDown;
 	}
-	
-	private String status(){
+
+
+	public String status(){
 		return "#" + id + "(" + (countDown > 0 ? countDown : "LiftOff!" ) + ")" ;
 	}
 
@@ -24,6 +28,7 @@ public class LiftOff implements Runnable{
 		while(countDown-- > 0){
 			System.out.println(status());
 			Thread.yield();    // 说明当前的线程事情暂时做完了，资源可以留给其他线程了
+
 		}
 	}
 	
@@ -41,7 +46,7 @@ public class LiftOff implements Runnable{
 			new Thread(new LiftOff()).start();
 			
 		}
-		System.out.println("waiting for thread to finish!!!");
+		System.out.println("All the threads has started!!!");
 	}
 
 }
