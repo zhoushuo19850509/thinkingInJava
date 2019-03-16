@@ -14,6 +14,10 @@ import java.util.Random;
  *
  * 序列化的对象可以是持久化的本地文件，
  * 也可以是byte array，方便用于网络传输
+ *
+ * 这个例子中，最核心的代码是：
+ *   ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("worm.out"));
+ *   out.writeObject("Worm object as file \n");
  */
 class Data implements Serializable{
     private int n;
