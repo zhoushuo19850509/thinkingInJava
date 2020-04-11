@@ -17,7 +17,7 @@ public class SimplePriorities implements Runnable{
     }
 
     public String toString(){
-        return Thread.currentThread() + ":" + countDown;
+        return Thread.currentThread() + ":" + countDown + " with priority: [" + Thread.currentThread().getPriority() + "]";
     }
 
 
@@ -30,20 +30,20 @@ public class SimplePriorities implements Runnable{
         try{
             while(true){
                 // 做一个耗时的操作，以显示显示线程优先级的作用
-//            for(int i = 0; i < 10000000; i++){
-//                d += ( Math.PI + Math.E ) / (double)i;
-//                if( (i % 1000) == 0 ){
-//                    Thread.yield();    //
-//                }
-//            }
-
-                for(int i = 0 ; i < 1000; i++){
-                    Thread.sleep(20);
-                    if( (i % 10) == 0 ){
+            for(int i = 0; i < 100000000; i++){
+                d += ( Math.PI + Math.E ) / (double)i;
+                if( (i % 1000) == 0 ){
                     Thread.yield();    //
-                    }
-
                 }
+            }
+
+//                for(int i = 0 ; i < 500; i++){
+//                    Thread.sleep(20);
+//                    if( (i % 10) == 0 ){
+//                    Thread.yield();    //
+//                    }
+//
+//                }
 //                Thread.sleep(2000);
                 System.out.println(this);
                 if(--countDown == 0){
