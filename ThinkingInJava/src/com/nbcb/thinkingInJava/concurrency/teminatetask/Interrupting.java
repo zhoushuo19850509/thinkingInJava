@@ -3,12 +3,14 @@ package com.nbcb.thinkingInJava.concurrency.teminatetask;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.net.ServerSocket;
+import java.net.Socket;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
 /**
- * 这个代码文件主要为了说明如何终端一个线程。
+ * 这个代码文件主要为了说明如何中断一个线程。
  * SleepBlocked/IOBlocked/SynchronizedBlocked分别代表三种类型的线程
  * 其中：
  * 1.SleepBlocked线程做的事情是Thread.sleep()，能够成功中断线程
@@ -16,7 +18,10 @@ import java.util.concurrent.Future;
  * 3.SynchronizedBlocked线程做的事情是等待获取synchronize方法，无法结束线程(只能通过system.exit(0)强制退出)
  */
 
-
+/**
+ * 这个Thread类做的事情，就是Sleep一段时间
+ * 如果在Sleep的时间段内，线程被中断了，那么这个中断是能够成功的
+ */
 class SleepBlocked implements Runnable{
 
     @Override
@@ -31,11 +36,20 @@ class SleepBlocked implements Runnable{
     }
 }
 
-
+/**
+ * 这个Thread类做的事情，就是等待IO输入
+ * 如果如果在等待IO输入的时间段内，线程被中断了，那么这个中断是没法成功的
+ * 只有等主线程退出来，这个等待IO输入的动作才会结束
+ */
 class IOBlocked implements Runnable{
 
     private InputStream in;
 
+    /**
+     * constructor
+     * @param in inputstream 既可以是SystemOut.in，也可是通过socket等待网络上的输入流
+     *           总之，将线程结束并不能结束这个inputstream。
+     */
     public IOBlocked(InputStream in) {
         this.in = in;
     }
@@ -53,12 +67,15 @@ class IOBlocked implements Runnable{
                 throw new RuntimeException();
             }
         }
-
     }
 }
 
 
-
+/**
+ * 这个Thread类做的事情，就是等待获取synchronize方法
+ * 如果如果在等待获取synchronize方法的时间段内，线程被中断了，那么这个中断是没法成功的
+ * 只有等主线程退出来，这个等待获取synchronize方法的动作才会结束
+ */
 class SynchronizedBlocked implements Runnable{
 
     /**
@@ -112,11 +129,16 @@ public class Interrupting {
 
     }
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) throws InterruptedException, IOException {
 
 //        test(new SleepBlocked());
+
+        ServerSocket server =new ServerSocket(8080);
+        InputStream in = new Socket("localhost",8080).getInputStream();
+
 //        test(new IOBlocked(System.in));
-        test(new SynchronizedBlocked());
+        test(new IOBlocked(in));
+//        test(new SynchronizedBlocked());
 
         Thread.sleep(5000);
         System.out.println("aborting system.exit(0)");
