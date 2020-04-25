@@ -131,14 +131,32 @@ public class Interrupting {
 
     public static void main(String[] args) throws InterruptedException, IOException {
 
+        /**
+         * 验证场景1 (书本上的场景)
+         */
 //        test(new SleepBlocked());
-
-        ServerSocket server =new ServerSocket(8080);
-        InputStream in = new Socket("localhost",8080).getInputStream();
-
 //        test(new IOBlocked(System.in));
-        test(new IOBlocked(in));
 //        test(new SynchronizedBlocked());
+
+
+        /**
+         * 验证场景2 (尝试将socket inputstream作为IOBlocked中的输入流)
+         * 显然，关闭Future也没办法中断IOBlocked
+         */
+//        ServerSocket server =new ServerSocket(8080);
+//        InputStream in = new Socket("localhost",8080).getInputStream();
+//        test(new IOBlocked(in));
+
+        /**
+         * 验证场景3 我们尝试通过Interrupting2.java中的中断(线程)方式，
+         * 看能否获取SynchronizedBlocked中的同步方法
+         * 从实际运行结果来看，显然也是不行。
+         */
+//        Thread t = new Thread(new SynchronizedBlocked());
+//        t.start();
+//        Thread.sleep(5000);
+//        System.out.println("start interrupt !");
+//        t.interrupt();
 
         Thread.sleep(5000);
         System.out.println("aborting system.exit(0)");
