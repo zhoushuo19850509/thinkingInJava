@@ -9,7 +9,8 @@ package com.nbcb.thinkingInJava.concurrency.coperatingtasks;
  * 生产者(Chef)(作为单独的线程)不停地做菜(new Meal对象)
  * 消费者(waitPerson)(作为单独的线程)不停地把菜端走(Meal对象置为null)
  *
- * 后续我们用到这个模型的时候，要特别注意
+ * 后续我们用到这个模型，进行线程间编程的时候，要特别注意，需要用到notifyAll()方法通知其他线程
+ * 否则就算其他线程通过while()不断地探测，也探测不到
  */
 
 import com.sun.xml.internal.ws.util.ReadAllStream;
@@ -26,6 +27,7 @@ class Meal{
      * orderNum
      * 当前是第几道菜
      */
+
     private final int orderNum;
 
     Meal(int orderNum) {
