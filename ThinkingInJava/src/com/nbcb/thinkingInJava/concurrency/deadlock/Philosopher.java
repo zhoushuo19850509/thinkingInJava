@@ -2,6 +2,19 @@ package com.nbcb.thinkingInJava.concurrency.deadlock;
 
 import java.util.Random;
 
+/**
+ * 这个类代表哲学家
+ * 每个哲学家都是一个单独的线程
+ * 线程启动后，做的事情是：
+ * 1.思考一段时间；
+ * 2.想吃东西；
+ * 3.先拿起右手边的筷子
+ * 4.再拿起左手边的筷子；
+ * 5.吃一会儿；
+ * 6.放下右手边的筷子；
+ * 7.放下左手边的筷子；
+ *
+ */
 public class Philosopher implements Runnable{
 
     private Chopstick left;
