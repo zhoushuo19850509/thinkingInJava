@@ -1,5 +1,7 @@
 package com.nbcb.thinkingInJava.annotations;
 
+import org.junit.Test;
+
 public class Tesstable {
 	
 	public void excute(){
