@@ -34,12 +34,14 @@ public class FillList{
 		List<StringAddress> list = new ArrayList<StringAddress>(Collections.nCopies(4, new StringAddress("hello")));
 		
 		// fill List 方式2: 每次都new一个对象，然后add到list中去
-//		List<StringAddress> list = new ArrayList<StringAddress>();
-//		StringAddress sa1 = new StringAddress("hello");
-//		StringAddress sa2 = new StringAddress("hi");
-//		list.add(sa1);
-//		list.add(sa2);
+		List<StringAddress> list1 = new ArrayList<StringAddress>();
+		StringAddress sa1 = new StringAddress("hi");
+		StringAddress sa2 = new StringAddress("hi");
+		list1.add(sa1);
+		list1.add(sa2);
 		System.out.println(list);
+
+		System.out.println(list1);
 	}
 }
 
