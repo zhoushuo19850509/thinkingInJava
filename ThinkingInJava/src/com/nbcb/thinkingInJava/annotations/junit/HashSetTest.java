@@ -29,6 +29,4 @@ public class HashSetTest {
         hashSet.remove("hello");
         assert hashSet.isEmpty();
     }
-
-
 }

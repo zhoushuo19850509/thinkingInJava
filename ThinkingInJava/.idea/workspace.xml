@@ -1,10 +1,154 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3121bccf-5452-4152-a6ea-f1f4ca5acb6a" name="Default" comment="" />
+    <list default="true" id="3121bccf-5452-4152-a6ea-f1f4ca5acb6a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/RandomList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/Thinking in java.docx" beforeDir="false" afterPath="$PROJECT_DIR$/doc/Thinking in java.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/HHH.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/aaa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/bbb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/ccc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/annotations/Tesstable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/annotations/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/arrays/BerylliumSphere.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/arrays/ContianerComparision.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/ccc333.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/concurrency/LiftOff.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/containerInDepth/FillList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/containerInDepth/StringAddress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/ddd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/enumeratedTypes/EnumClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/enumeratedTypes/Shrubbery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/generics/Automobile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/generics/Holder1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/generics/Holder3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/holdobject/Apple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/holdobject/AppleAndOrange.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/holdobject/Orange.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/interfaces/Apply.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/interfaces/Downcast.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/interfaces/Processor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/interfaces/Splitter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/interfaces/Upcast.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/interfaces/Waveform.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/interfaces/filters/BandPass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/interfaces/filters/Filter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/interfaces/filters/HighPass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/interfaces/filters/LowPass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/interfaces/interfaceProcessor/Apply.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/interfaces/interfaceProcessor/Downcast.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/interfaces/interfaceProcessor/FilterAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/interfaces/interfaceProcessor/FilterProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/interfaces/interfaceProcessor/Processor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/interfaces/interfaceProcessor/Splitter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/interfaces/interfaceProcessor/StringProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/interfaces/interfaceProcessor/Upcast.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/interfaces/stringSwapper/StringSwapApater.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/interfaces/stringSwapper/StringSwapProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/io/DirFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/io/DirList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/strings/Concatenation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/strings/Immutable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/strings/a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/Candy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/ClassHierarchy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/ClassInitialization.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/Cookie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/FancyToy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/Gum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/HasBatteries.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/Initable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/Initable2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/Initable3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/Rhomboid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/Shapes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/Shoots.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/ShowMethods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/Square.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/SweetShop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/Toy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/ToyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/Triangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/Waterproofs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/pets/.~lock.Pet.vsd#" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/pets/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/pets/Cymric.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/pets/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/pets/EgyptianMau.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/pets/ForNameCreator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/pets/Hamster.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/pets/Individual.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/pets/LiteralPetCreator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/pets/Manx.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/pets/Mouse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/pets/Mutt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/pets/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/pets/Pet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/pets/Pet.vsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/pets/PetCount$PetCounter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/pets/PetCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/pets/PetCount2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/pets/PetCreator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/pets/Pets.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/pets/Pug.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/pets/Rat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/pets/Rodent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/pets/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/proxy/DynamicProxyHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/proxy/Implementation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/proxy/Interface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/proxy/MethodSelector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/proxy/RealObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/proxy/SelectingMethods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/proxy/SimpleDynamicProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/proxy/SimpleProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/proxy/SimpleProxyDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/proxy/SomeMethods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/proxy/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/userInterface/BoaderLayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/userInterface/Button1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/userInterface/Button2$ButtonListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/userInterface/Button2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/userInterface/CheckBoxes$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/userInterface/CheckBoxes$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/userInterface/CheckBoxes$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/userInterface/CheckBoxes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/userInterface/Faces$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/userInterface/Faces.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/userInterface/FlowLayout1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/userInterface/GridLayout1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/userInterface/HelloSwing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/userInterface/ShowAddListeners$NameListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/userInterface/ShowAddListeners.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/userInterface/SubmitSwingProgram$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/userInterface/SubmitSwingProgram$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/userInterface/SubmitSwingProgram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/userInterface/SubmitiLabelManipulationTask$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/userInterface/SubmitiLabelManipulationTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/userInterface/Table1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/userInterface/TestCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/userInterface/TextArea$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/userInterface/TextArea$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/userInterface/TextArea.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/util/PackageUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/util/SwingConsole$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/util/SwingConsole.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/junit/HashSetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/junit/HashSetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/Holder1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/Holder1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/Holder2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/Holder2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/Holder3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/Holder3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/LinkedStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/LinkedStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/ThreeTuple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/ThreeTuple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/TwoTuple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/TwoTuple.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,34 +156,120 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TypeCounter.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/util/TypeCounter.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/Holder1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="38" column="61" lean-forward="false" selection-start-line="38" selection-start-column="61" selection-end-line="38" selection-end-column="61" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PetCount3.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/typeInformation/pets/PetCount3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="41" column="65" lean-forward="true" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="65" />
+            <state relative-caret-position="154">
+              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#83#84#0" expanded="true" />
+                <element signature="e#129#130#0" expanded="true" />
+                <element signature="e#169#170#0" expanded="true" />
+                <element signature="e#197#198#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LiteralPetCreator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/typeInformation/pets/LiteralPetCreator.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/Holder2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-              <folding />
+            <state relative-caret-position="704">
+              <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/Holder3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/LinkedStack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="81" column="8" lean-forward="true" selection-start-line="81" selection-start-column="8" selection-end-line="83" selection-end-column="9" />
+              <folding>
+                <element signature="e#420#421#0" expanded="true" />
+                <element signature="e#479#480#0" expanded="true" />
+                <element signature="e#1248#1249#0" expanded="true" />
+                <element signature="e#1292#1293#0" expanded="true" />
+                <element signature="e#1539#1547#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/RandomList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1149">
+              <caret line="59" column="9" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#393#394#0" expanded="true" />
+                <element signature="e#431#432#0" expanded="true" />
+                <element signature="e#663#664#0" expanded="true" />
+                <element signature="e#697#698#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/TwoTuple.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/ThreeTuple.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/junit/HashSetTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#250#251#0" expanded="true" />
+                <element signature="e#290#291#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/junit/AtUnit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/UseCase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -56,6 +286,15 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>pet</find>
+      <find>429</find>
+      <find>synchro</find>
+      <find>wait()</find>
+      <find>=====================</find>
+      <find>Future</find>
+      <find>FUture</find>
+      <find>ThreadLocal</find>
+      <find>TestObjectCreate</find>
+      <find>join()</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -64,23 +303,63 @@
       <dir>$PROJECT_DIR$</dir>
     </dirStrings>
   </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/aaa.java" />
+        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/concurrency/coperatingtasks/waxomatic2/WaxOMatic2.java" />
+        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/concurrency/deadlock/Chopstick.java" />
+        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/concurrency/deadlock/DeadlockingDiningPhilosopher.java" />
+        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/concurrency/deadlock/Philosopher.java" />
+        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/concurrency/deadlock/FixedDiningPhilosopher.java" />
+        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/concurrency/deadlock/readme.txt" />
+        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/concurrency/newlib/CountDownLatchDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/concurrency/newlib/DelayQueueDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/concurrency/newlib/HorseRace.java" />
+        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/concurrency/newlib/Fat.java" />
+        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/concurrency/CallableDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/concurrency/newlib/Pool.java" />
+        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/concurrency/newlib/SemaphoreDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/concurrency/newlib/BankTellerSimulation.java" />
         <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/ccc333.java" />
-        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/typeInformation/proxy/SelectingMethods.java" />
-        <option value="$PROJECT_DIR$/src/HHH.java" />
-        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/typeInformation/pets/ForNameCreator.java" />
-        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/typeInformation/pets/PetCount.java" />
-        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/typeInformation/pets/Pets.java" />
-        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/typeInformation/pets/PetCount3.java" />
-        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/util/TypeCounter.java" />
+        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/containerInDepth/FillList.java" />
+        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/containerInDepth/CountIntegerList.java" />
+        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/containerInDepth/CountingMapData.java" />
+        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/InterfaceExtractorProcessor.java" />
+        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/UseCase.java" />
+        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/PasswordUtil.java" />
+        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/UseCaseTracker.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/Tesstable.java" />
+        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/AtUnitExternalTest.java" />
+        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/AtUnitComposition.java" />
+        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/HashSetTest.java" />
+        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/AtUnitExample1.java" />
+        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/AtUnitExample2.java" />
+        <option value="$PROJECT_DIR$/TIJ4-code-master/examples/annotations/PasswordUtils.java" />
+        <option value="$PROJECT_DIR$/src/net/mindview/atunit/AtUnitRemover.java" />
+        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/SimpleProcessor.java" />
+        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/AtUnitExample3.java" />
+        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/AtUnitExample4.java" />
+        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/AtUnitExample5.java" />
+        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/Member.java" />
+        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/database/Constraints.java" />
+        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/database/SQLInteger.java" />
+        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/database/DBTable.java" />
+        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/database/SQLString.java" />
+        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/database/Member.java" />
+        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/database/TableCreator.java" />
+        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/junit/HashSetTest.java" />
+        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/junit/AtUnitExample1.java" />
+        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/Holder2.java" />
+        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/Holder3.java" />
+        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/TwoTuple.java" />
+        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/Holder1.java" />
+        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/ThreeTuple.java" />
+        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/LinkedStack.java" />
+        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/RandomList.java" />
       </list>
     </option>
   </component>
@@ -90,29 +369,27 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="65" />
-    <option name="y" value="24" />
-    <option name="width" value="1215" />
-    <option name="height" value="776" />
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="101" />
+    <option name="y" value="305" />
+    <option name="width" value="1522" />
+    <option name="height" value="928" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -123,6 +400,11 @@
             <path>
               <item name="ThinkingInJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ThinkingInJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -153,44 +435,35 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="nbcb" type="462c0819:PsiDirectoryNode" />
               <item name="thinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="typeInformation" type="462c0819:PsiDirectoryNode" />
+              <item name="generics" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ThinkingInJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="nbcb" type="462c0819:PsiDirectoryNode" />
-              <item name="thinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="typeInformation" type="462c0819:PsiDirectoryNode" />
-              <item name="pets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ThinkingInJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="nbcb" type="462c0819:PsiDirectoryNode" />
-              <item name="thinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1656686474448" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/typeInformation/pets/PetCount.java" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -204,197 +477,131 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PetCount3">
-    <configuration name="HHH" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="HHH" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ThinkingInJava" />
-      <envs />
-    </configuration>
-    <configuration name="PetCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.nbcb.thinkingInJava.typeInformation.pets.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.nbcb.thinkingInJava.typeInformation.pets.PetCount" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ThinkingInJava" />
-      <envs />
-    </configuration>
-    <configuration name="PetCount3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.nbcb.thinkingInJava.typeInformation.pets.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.nbcb.thinkingInJava.typeInformation.pets.PetCount3" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ThinkingInJava" />
-      <envs />
-    </configuration>
-    <configuration name="SelectingMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.nbcb.thinkingInJava.typeInformation.proxy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.nbcb.thinkingInJava.typeInformation.proxy.SelectingMethods" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ThinkingInJava" />
-      <envs />
-    </configuration>
-    <configuration name="SimpleProxyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.nbcb.thinkingInJava.typeInformation.proxy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.nbcb.thinkingInJava.typeInformation.proxy.SimpleProxyDemo" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ThinkingInJava" />
-      <envs />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
+  <component name="RunManager" selected="Application.RandomList">
+    <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Holder3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nbcb.thinkingInJava.generics.Holder3" />
+      <module name="ThinkingInJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nbcb.thinkingInJava.generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nbcb.thinkingInJava.generics.LinkedStack" />
+      <module name="ThinkingInJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nbcb.thinkingInJava.generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RandomList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nbcb.thinkingInJava.generics.RandomList" />
+      <module name="ThinkingInJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nbcb.thinkingInJava.generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreeTuple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nbcb.thinkingInJava.generics.ThreeTuple" />
+      <module name="ThinkingInJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nbcb.thinkingInJava.generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwoTuple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nbcb.thinkingInJava.generics.TwoTuple" />
+      <module name="ThinkingInJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nbcb.thinkingInJava.generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration default="true" type="TestNG">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.SelectingMethods" />
-      <item index="1" class="java.lang.String" itemvalue="Application.PetCount" />
-      <item index="2" class="java.lang.String" itemvalue="Application.HHH" />
-      <item index="3" class="java.lang.String" itemvalue="Application.SimpleProxyDemo" />
-      <item index="4" class="java.lang.String" itemvalue="Application.PetCount3" />
+    <list>
+      <item itemvalue="Application.Holder3" />
+      <item itemvalue="Application.TwoTuple" />
+      <item itemvalue="Application.ThreeTuple" />
+      <item itemvalue="Application.LinkedStack" />
+      <item itemvalue="Application.RandomList" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.PetCount3" />
-        <item index="1" class="java.lang.String" itemvalue="Application.PetCount" />
-        <item index="2" class="java.lang.String" itemvalue="Application.SimpleProxyDemo" />
-        <item index="3" class="java.lang.String" itemvalue="Application.HHH" />
-        <item index="4" class="java.lang.String" itemvalue="Application.SelectingMethods" />
+      <list>
+        <item itemvalue="Application.RandomList" />
+        <item itemvalue="Application.LinkedStack" />
+        <item itemvalue="Application.ThreeTuple" />
+        <item itemvalue="Application.TwoTuple" />
+        <item itemvalue="Application.Holder3" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -409,449 +616,454 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="AtUnitExample3_methodOneTest - 2022.01.16 at 15h 19m 45s.xml">
+      <configuration name="AtUnitExample3.methodOneTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AtUnitExample3 - 2022.01.16 at 15h 20m 27s.xml">
+      <configuration name="AtUnitExample3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AtUnitExample3_methodOneTest - 2022.01.16 at 15h 21m 06s.xml">
+      <configuration name="AtUnitExample3.methodOneTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AtUnitExample3_privateAttrTest - 2022.01.16 at 15h 21m 37s.xml">
+      <configuration name="AtUnitExample3.privateAttrTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AtUnitExample3_methodTwoTest - 2022.01.16 at 15h 25m 48s.xml">
+      <configuration name="AtUnitExample3.methodTwoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AtUnitExample3_privateAttrTest - 2022.01.16 at 15h 26m 15s.xml">
+      <configuration name="AtUnitExample3.privateAttrTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AtUnitExample3_methodOneTest - 2022.01.16 at 15h 47m 49s.xml">
+      <configuration name="AtUnitExample3.methodOneTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AtUnitExample3_methodOneTest - 2022.01.16 at 21h 03m 52s.xml">
+      <configuration name="AtUnitExample3.methodOneTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AtUnitExample3_methodOneTest - 2022.01.16 at 21h 04m 04s.xml">
+      <configuration name="AtUnitExample3.methodOneTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AtUnitExample1_methodOneTest - 2022.02.27 at 15h 11m 47s.xml">
+      <configuration name="AtUnitExample1.methodOneTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="3320000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1215" height="776" extended-state="6" />
+    <frame x="101" y="305" width="1522" height="928" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29135802" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39978448" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.40202704" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Image Layers" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32289156" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39910313" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32902583" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32821724" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Maven" order="9" weight="0.32939324" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/typeInformation/pets/PetCount2.java">
+    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/Test.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="346">
+          <caret line="33" column="21" lean-forward="true" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/typeInformation/proxy/SimpleProxyDemo.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Test.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        <state relative-caret-position="203">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/aaa.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/BeforeClass.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="220">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#388#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HHH.java">
+    <entry file="file://$PROJECT_DIR$/TIJ4-code-master/LICENSE" />
+    <entry file="file://$PROJECT_DIR$/TIJ4-code-master/examples/annotations/PasswordUtils.java" />
+    <entry file="file://$PROJECT_DIR$/TIJ4-code-master/examples/annotations/AtUnitExample3.java" />
+    <entry file="file://$PROJECT_DIR$/TIJ4-code-master/examples/net/mindview/atunit/TestObjectCreate.java" />
+    <entry file="file://$PROJECT_DIR$/TIJ4-code-master/examples/net/mindview/atunit/ClassNameFinder.java" />
+    <entry file="file://$PROJECT_DIR$/TIJ4-code-master/examples/typeinfo/ClassCasts.java" />
+    <entry file="file://$PROJECT_DIR$/src/net/mindview/atunit/AtUnitRemover.java" />
+    <entry file="file://$PROJECT_DIR$/src/net/mindview/util/Hex.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        <state relative-caret-position="396">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/typeInformation/pets/PetCount3.java">
+    <entry file="file://$PROJECT_DIR$/src/net/mindview/atunit/ClassNameFinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/mindview/atunit/TestObjectCleanup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/mindview/atunit/TestProperty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/mindview/atunit/TestObjectCreate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/mindview/atunit/AtUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/junit/AtUnitComposition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/database/TableCreationProcessorFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/database/SQLString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/database/TableCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/database/DBTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/database/Constraints.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/database/SQLInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/database/Member.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/ClassNameFinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/InterfaceExtractorProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="40" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/InterfaceExtractorProcessorFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="47" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/PasswordUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/SimpleProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/StackLStringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/Tesstable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/UseCaseTracker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/typeInformation/pets/PetCount.java">
+    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/junit/AtUnitExample2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1170">
-          <caret line="65" column="5" lean-forward="false" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="154">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/typeInformation/pets/PetCount2.java">
+    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/junit/AtUnitExample1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="396">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/typeInformation/pets/PetCount3.java">
+    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/junit/AtUnitExample3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="660">
+          <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HHH.java">
+    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/junit/AtUnitExample4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        <state relative-caret-position="154">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/aaa.java">
+    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/junit/AtUnitExample5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="220">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/typeInformation/proxy/SimpleProxyDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/junit/AtUnitExternalTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="330">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/typeInformation/pets/PetCount.java">
+    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/junit/AtUnitRemover.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1170">
-          <caret line="65" column="5" lean-forward="false" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="88">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/typeInformation/pets/PetCount2.java">
+    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/concurrency/Joining.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="594">
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/typeInformation/pets/PetCount3.java">
+    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/Holder1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="154">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding>
+            <element signature="e#83#84#0" expanded="true" />
+            <element signature="e#129#130#0" expanded="true" />
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/Holder2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/Holder3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/ThreeTuple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/junit/HashSetTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/junit/AtUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/UseCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/aaa.java">
+    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/TwoTuple.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="363">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HHH.java">
+    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/LinkedStack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="34" lean-forward="true" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        <state relative-caret-position="290">
+          <caret line="81" column="8" lean-forward="true" selection-start-line="81" selection-start-column="8" selection-end-line="83" selection-end-column="9" />
+          <folding>
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#479#480#0" expanded="true" />
+            <element signature="e#1248#1249#0" expanded="true" />
+            <element signature="e#1292#1293#0" expanded="true" />
+            <element signature="e#1539#1547#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/typeInformation/proxy/SimpleProxyDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/RandomList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/typeInformation/pets/PetCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1170">
-          <caret line="65" column="5" lean-forward="false" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/typeInformation/pets/PetCount2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/typeInformation/pets/PetCount3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        <state relative-caret-position="1149">
+          <caret line="59" column="9" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#663#664#0" expanded="true" />
+            <element signature="e#697#698#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/typeInformation/pets/PetCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1170">
-          <caret line="65" column="5" lean-forward="true" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/typeInformation/pets/PetCount2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/typeInformation/pets/PetCount3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/aaa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bbb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nbcb/ccc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/ddd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/ccc333.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/typeInformation/proxy/SelectingMethods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="22" column="42" lean-forward="true" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bbb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nbcb/ccc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/ddd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/ccc333.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/typeInformation/proxy/SelectingMethods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="40" column="12" lean-forward="true" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/aaa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HHH.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/typeInformation/proxy/SimpleProxyDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="2" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/typeInformation/pets/Pet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/typeInformation/pets/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/typeInformation/pets/Mutt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/typeInformation/pets/Mouse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/typeInformation/pets/Rat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/typeInformation/pets/Pets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding>
-            <element signature="e#222#223#0" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
-            <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
-            <element signature="e#461#462#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/java/jdk1.8.0_144/src.zip!/java/util/LinkedHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="379" column="7" lean-forward="true" selection-start-line="379" selection-start-column="7" selection-end-line="379" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/typeInformation/pets/PetCount2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/typeInformation/pets/PetCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/typeInformation/pets/PetCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/typeInformation/pets/ForNameCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/typeInformation/pets/LiteralPetCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/typeInformation/pets/PetCount3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="41" column="65" lean-forward="true" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/util/TypeCounter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="38" column="61" lean-forward="false" selection-start-line="38" selection-start-column="61" selection-end-line="38" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -884,6 +1096,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>servlet</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -932,6 +1145,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
