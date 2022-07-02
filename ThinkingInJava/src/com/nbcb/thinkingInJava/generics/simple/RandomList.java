@@ -1,4 +1,4 @@
-package com.nbcb.thinkingInJava.generics;
+package com.nbcb.thinkingInJava.generics.simple;
 
 
 import java.util.ArrayList;

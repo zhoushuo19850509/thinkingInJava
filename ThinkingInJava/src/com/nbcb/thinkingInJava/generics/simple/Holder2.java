@@ -1,7 +1,5 @@
-package com.nbcb.thinkingInJava.generics;
+package com.nbcb.thinkingInJava.generics.simple;
 
-
-import com.nbcb.thinkingInJava.annotations.junit.AtUnit;
 
 /**
  * Holder2

@@ -2,149 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3121bccf-5452-4152-a6ea-f1f4ca5acb6a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/RandomList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doc/Thinking in java.docx" beforeDir="false" afterPath="$PROJECT_DIR$/doc/Thinking in java.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/HHH.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/aaa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/bbb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/ccc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/annotations/Tesstable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/annotations/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/arrays/BerylliumSphere.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/arrays/ContianerComparision.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/ccc333.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/concurrency/LiftOff.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/containerInDepth/FillList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/containerInDepth/StringAddress.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/ddd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/enumeratedTypes/EnumClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/enumeratedTypes/Shrubbery.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/generics/Automobile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/generics/Holder1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/generics/Holder3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/holdobject/Apple.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/holdobject/AppleAndOrange.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/holdobject/Orange.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/interfaces/Apply.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/interfaces/Downcast.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/interfaces/Processor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/interfaces/Splitter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/interfaces/Upcast.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/interfaces/Waveform.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/interfaces/filters/BandPass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/interfaces/filters/Filter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/interfaces/filters/HighPass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/interfaces/filters/LowPass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/interfaces/interfaceProcessor/Apply.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/interfaces/interfaceProcessor/Downcast.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/interfaces/interfaceProcessor/FilterAdapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/interfaces/interfaceProcessor/FilterProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/interfaces/interfaceProcessor/Processor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/interfaces/interfaceProcessor/Splitter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/interfaces/interfaceProcessor/StringProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/interfaces/interfaceProcessor/Upcast.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/interfaces/stringSwapper/StringSwapApater.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/interfaces/stringSwapper/StringSwapProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/io/DirFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/io/DirList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/strings/Concatenation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/strings/Immutable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/strings/a.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/Candy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/Circle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/ClassHierarchy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/ClassInitialization.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/Cookie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/FancyToy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/Gum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/HasBatteries.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/Initable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/Initable2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/Initable3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/Rhomboid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/Shape.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/Shapes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/Shoots.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/ShowMethods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/Square.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/SweetShop.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/Toy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/ToyTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/Triangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/Waterproofs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/pets/.~lock.Pet.vsd#" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/pets/Cat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/pets/Cymric.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/pets/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/pets/EgyptianMau.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/pets/ForNameCreator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/pets/Hamster.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/pets/Individual.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/pets/LiteralPetCreator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/pets/Manx.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/pets/Mouse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/pets/Mutt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/pets/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/pets/Pet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/pets/Pet.vsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/pets/PetCount$PetCounter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/pets/PetCount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/pets/PetCount2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/pets/PetCreator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/pets/Pets.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/pets/Pug.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/pets/Rat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/pets/Rodent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/pets/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/proxy/DynamicProxyHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/proxy/Implementation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/proxy/Interface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/proxy/MethodSelector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/proxy/RealObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/proxy/SelectingMethods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/proxy/SimpleDynamicProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/proxy/SimpleProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/proxy/SimpleProxyDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/proxy/SomeMethods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/typeInformation/proxy/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/userInterface/BoaderLayer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/userInterface/Button1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/userInterface/Button2$ButtonListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/userInterface/Button2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/userInterface/CheckBoxes$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/userInterface/CheckBoxes$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/userInterface/CheckBoxes$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/userInterface/CheckBoxes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/userInterface/Faces$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/userInterface/Faces.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/userInterface/FlowLayout1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/userInterface/GridLayout1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/userInterface/HelloSwing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/userInterface/ShowAddListeners$NameListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/userInterface/ShowAddListeners.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/userInterface/SubmitSwingProgram$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/userInterface/SubmitSwingProgram$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/userInterface/SubmitSwingProgram.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/userInterface/SubmitiLabelManipulationTask$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/userInterface/SubmitiLabelManipulationTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/userInterface/Table1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/userInterface/TestCase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/userInterface/TextArea$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/userInterface/TextArea$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/userInterface/TextArea.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/util/PackageUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/util/SwingConsole$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/nbcb/thinkingInJava/util/SwingConsole.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/junit/HashSetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/junit/HashSetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/Holder1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/Holder1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/Holder2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/Holder2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/Holder3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/Holder3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/LinkedStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/LinkedStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/ThreeTuple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/ThreeTuple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/TwoTuple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/TwoTuple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/Holder1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/simple/Holder1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/Holder2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/simple/Holder2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/Holder3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/simple/Holder3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/LinkedStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/simple/LinkedStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/RandomList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/simple/RandomList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/ThreeTuple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/simple/ThreeTuple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/TwoTuple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/simple/TwoTuple.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -157,10 +23,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/Holder1.java">
+        <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/simple/Holder1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+            <state relative-caret-position="66">
+              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
               <folding>
                 <element signature="e#83#84#0" expanded="true" />
                 <element signature="e#129#130#0" expanded="true" />
@@ -172,83 +38,58 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/Holder2.java">
+        <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/simple/Holder2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
-              <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+            <state relative-caret-position="198">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/Holder3.java">
+        <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/simple/Holder3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+            <state relative-caret-position="44">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/LinkedStack.java">
+        <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/simple/LinkedStack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="81" column="8" lean-forward="true" selection-start-line="81" selection-start-column="8" selection-end-line="83" selection-end-column="9" />
+            <state relative-caret-position="242">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/simple/RandomList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding>
-                <element signature="e#420#421#0" expanded="true" />
-                <element signature="e#479#480#0" expanded="true" />
-                <element signature="e#1248#1249#0" expanded="true" />
-                <element signature="e#1292#1293#0" expanded="true" />
-                <element signature="e#1539#1547#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/simple/TwoTuple.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/RandomList.java">
+        <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/simple/ThreeTuple.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1149">
-              <caret line="59" column="9" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#393#394#0" expanded="true" />
-                <element signature="e#431#432#0" expanded="true" />
-                <element signature="e#663#664#0" expanded="true" />
-                <element signature="e#697#698#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/TwoTuple.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/ThreeTuple.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/junit/HashSetTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#250#251#0" expanded="true" />
-                <element signature="e#290#291#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="440">
+              <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -309,7 +150,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/concurrency/coperatingtasks/waxomatic2/WaxOMatic2.java" />
         <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/concurrency/deadlock/Chopstick.java" />
         <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/concurrency/deadlock/DeadlockingDiningPhilosopher.java" />
         <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/concurrency/deadlock/Philosopher.java" />
@@ -360,6 +200,7 @@
         <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/ThreeTuple.java" />
         <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/LinkedStack.java" />
         <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/RandomList.java" />
+        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/inferfaces/Generator.java" />
       </list>
     </option>
   </component>
@@ -376,8 +217,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="101" />
-    <option name="y" value="305" />
+    <option name="x" value="206" />
+    <option name="y" value="265" />
     <option name="width" value="1522" />
     <option name="height" value="928" />
   </component>
@@ -389,7 +230,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -439,6 +279,16 @@
             </path>
             <path>
               <item name="ThinkingInJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="nbcb" type="462c0819:PsiDirectoryNode" />
+              <item name="thinkingInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="generics" type="462c0819:PsiDirectoryNode" />
+              <item name="inferfaces" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ThinkingInJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -446,12 +296,13 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1656686474448" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1656745690520" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -485,12 +336,12 @@
       </method>
     </configuration>
     <configuration name="Holder3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nbcb.thinkingInJava.generics.Holder3" />
+      <option name="MAIN_CLASS_NAME" value="com.nbcb.thinkingInJava.generics.simple.Holder3" />
       <module name="ThinkingInJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.nbcb.thinkingInJava.generics.*" />
+          <option name="PATTERN" value="com.nbcb.thinkingInJava.generics.simple.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -499,12 +350,12 @@
       </method>
     </configuration>
     <configuration name="LinkedStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nbcb.thinkingInJava.generics.LinkedStack" />
+      <option name="MAIN_CLASS_NAME" value="com.nbcb.thinkingInJava.generics.simple.LinkedStack" />
       <module name="ThinkingInJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.nbcb.thinkingInJava.generics.*" />
+          <option name="PATTERN" value="com.nbcb.thinkingInJava.generics.simple.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -513,12 +364,12 @@
       </method>
     </configuration>
     <configuration name="RandomList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nbcb.thinkingInJava.generics.RandomList" />
+      <option name="MAIN_CLASS_NAME" value="com.nbcb.thinkingInJava.generics.simple.RandomList" />
       <module name="ThinkingInJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.nbcb.thinkingInJava.generics.*" />
+          <option name="PATTERN" value="com.nbcb.thinkingInJava.generics.simple.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -527,12 +378,12 @@
       </method>
     </configuration>
     <configuration name="ThreeTuple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nbcb.thinkingInJava.generics.ThreeTuple" />
+      <option name="MAIN_CLASS_NAME" value="com.nbcb.thinkingInJava.generics.simple.ThreeTuple" />
       <module name="ThinkingInJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.nbcb.thinkingInJava.generics.*" />
+          <option name="PATTERN" value="com.nbcb.thinkingInJava.generics.simple.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -541,12 +392,12 @@
       </method>
     </configuration>
     <configuration name="TwoTuple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nbcb.thinkingInJava.generics.TwoTuple" />
+      <option name="MAIN_CLASS_NAME" value="com.nbcb.thinkingInJava.generics.simple.TwoTuple" />
       <module name="ThinkingInJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.nbcb.thinkingInJava.generics.*" />
+          <option name="PATTERN" value="com.nbcb.thinkingInJava.generics.simple.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -652,10 +503,9 @@
     <option name="totallyTimeSpent" value="3320000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="101" y="305" width="1522" height="928" extended-state="0" />
-    <editor active="true" />
+    <frame x="206" y="265" width="1522" height="928" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.40202704" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.40743244" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -664,7 +514,7 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32289156" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32289156" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39910313" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -689,7 +539,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/Test.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="346">
@@ -969,40 +818,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/Holder1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-          <folding>
-            <element signature="e#83#84#0" expanded="true" />
-            <element signature="e#129#130#0" expanded="true" />
-            <element signature="e#169#170#0" expanded="true" />
-            <element signature="e#197#198#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/Holder2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/Holder3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/ThreeTuple.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/junit/HashSetTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -1032,38 +847,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/TwoTuple.java">
+    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/simple/Holder1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/LinkedStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="81" column="8" lean-forward="true" selection-start-line="81" selection-start-column="8" selection-end-line="83" selection-end-column="9" />
+        <state relative-caret-position="66">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
           <folding>
-            <element signature="e#420#421#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-            <element signature="e#1248#1249#0" expanded="true" />
-            <element signature="e#1292#1293#0" expanded="true" />
-            <element signature="e#1539#1547#0" expanded="true" />
+            <element signature="e#83#84#0" expanded="true" />
+            <element signature="e#129#130#0" expanded="true" />
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/RandomList.java">
+    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/simple/Holder2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1149">
-          <caret line="59" column="9" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
+        <state relative-caret-position="198">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/simple/Holder3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/simple/LinkedStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/simple/RandomList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#431#432#0" expanded="true" />
-            <element signature="e#663#664#0" expanded="true" />
-            <element signature="e#697#698#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/simple/TwoTuple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/inferfaces/Generator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/simple/ThreeTuple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
         </state>
       </provider>
     </entry>

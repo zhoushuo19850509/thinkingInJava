@@ -1,4 +1,4 @@
-package com.nbcb.thinkingInJava.generics;
+package com.nbcb.thinkingInJava.generics.simple;
 
 /**
  * Generics在Stack数据结构中的使用

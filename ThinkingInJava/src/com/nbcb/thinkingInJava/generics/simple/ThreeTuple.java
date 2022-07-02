@@ -1,4 +1,4 @@
-package com.nbcb.thinkingInJava.generics;
+package com.nbcb.thinkingInJava.generics.simple;
 
 public class ThreeTuple<A,B,C> extends TwoTuple<A,B> {
 
