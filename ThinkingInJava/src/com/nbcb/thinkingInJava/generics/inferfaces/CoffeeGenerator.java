@@ -20,6 +20,9 @@ public class CoffeeGenerator
         this.size = size;
     }
 
+    public CoffeeGenerator() {
+    }
+
     /**
      * 实现了Generator接口的方法，用于生成随机的Coffee(子类)对象
      * 特别注意：types数组中，只是class类，并不是实例对象
