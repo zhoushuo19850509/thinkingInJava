@@ -11,12 +11,16 @@ import java.util.Collection;
 
 
 /**
+ * Generics 在methods中的应用场景1
+ *
  * 之前我们在interfaces这个package下开发了一个通用接口Generator
  * 这个接口有一个方法： next() 用来产生一个个泛型元素
  *
  * 在Generators这个文件里，我们更近一步，
  * 通过Generator.next()创建一个个元素，创建一个长度为n的集合类
  * 通过fill()方法中应用泛型，最大限度保证了Generators的通用性
+ *
+ * 这个文件非常有用，续我们如果要创建一个集合类，就可以用这个方法
  */
 public class Generators {
 
