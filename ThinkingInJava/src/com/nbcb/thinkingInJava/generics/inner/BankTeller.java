@@ -35,6 +35,13 @@ class Customer{
                 '}';
     }
 
+    /**
+     * 特别说明一下，generator()方法返回一个Generator<Customer>实现类
+     * 我们回顾一下generics/interfaces package下，
+     * 我们要定义某个特定类的Generator实现类，比如CoffeeGenerator，就要单独写一个文件
+     * 如果使用内部类，就不用单独写一个文件，大大精简了代码。
+     * @return
+     */
     public static Generator<Customer> generator(){
         return new Generator<Customer>() {
             @Override
@@ -60,14 +67,13 @@ class Teller{
                 '}';
     }
 
-    public static Generator<Teller> generator(){
-        return new Generator<Teller>() {
+    public static Generator<Teller> generator =
+        new Generator<Teller>() {
             @Override
             public Teller next() {
                 return new Teller();
             }
         };
-    }
 }
 
 /**
@@ -96,7 +102,7 @@ public class BankTeller {
 
         // 再定义一个Teller队列
         List<Teller> tellers = new ArrayList<Teller>();
-        Generators.fill(tellers, Teller.generator(), 5);
+        Generators.fill(tellers, Teller.generator, 5);
 
         Random random = new Random(47);
         for(Customer customer : customers){
