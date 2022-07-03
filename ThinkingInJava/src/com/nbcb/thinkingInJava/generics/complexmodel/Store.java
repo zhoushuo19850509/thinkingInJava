@@ -9,6 +9,7 @@ import java.util.Random;
 
 /**
  * 这个文件主要是为了说明泛型在复杂结构模型中的应用
+ *
  */
 
 
@@ -62,12 +63,16 @@ class Product{
 }
 
 /**
- * class2 货架(一个货架上包含一组产品)
+ * class2 货架
+ * 说是货架，其实是一个Product Object list(一个货架上包含一组产品)
  * 通过Generators.fill()方法，产生一组产品，具体参考 BankTeller.java
  */
 class Shelf extends ArrayList<Product> {
     /**
      * constructor
+     * 功能：往Shelf对象(Product list)添加一个个元素
+     * (每个元素都是Product对象)
+     * 这里用到了Generators.fill()方法，因添加Product对象的方法是自定义的
      * @param nProducts 一组产品的数量
      */
     public Shelf(int nProducts) {
@@ -76,10 +81,20 @@ class Shelf extends ArrayList<Product> {
 }
 
 /**
- * class3 过道(一个过道包含若干个货架)
+ * class3 过道
+ * 说是过道，其实是一个Shelf Object list(一个过道包含若干个货架)
  *
  */
 class Aisle extends ArrayList<Shelf>{
+
+    /**
+     * constructor
+     * 功能：往Aisle对象(Shelf list)添加一个个元素
+     *  (每个元素都是Shelf对象)
+     *  这里直接调用for循环
+     * @param nShelies
+     * @param nProducts
+     */
     public Aisle(int nShelies, int nProducts) {
 
         /**

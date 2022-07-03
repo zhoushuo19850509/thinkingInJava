@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3121bccf-5452-4152-a6ea-f1f4ca5acb6a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/complexmodel/Store.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doc/Thinking in java.docx" beforeDir="false" afterPath="$PROJECT_DIR$/doc/Thinking in java.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/inner/BankTeller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/inner/BankTeller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/complexmodel/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/complexmodel/Store.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/complexmodel/Store.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="127">
+              <caret line="74" column="52" selection-start-line="74" selection-start-column="52" selection-end-line="74" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1462#1463#0" expanded="true" />
@@ -31,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/inner/BankTeller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="104" column="49" selection-start-line="104" selection-start-column="49" selection-end-line="104" selection-end-column="49" />
+            <state relative-caret-position="-1593">
+              <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1658#1659#0" expanded="true" />
@@ -128,8 +127,8 @@
         <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/inferfaces/CoffeeGenerator.java" />
         <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/methods/Generators.java" />
         <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/methods/GenericVars.java" />
-        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/complexmodel/Store.java" />
         <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/inner/BankTeller.java" />
+        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/complexmodel/Store.java" />
       </list>
     </option>
   </component>
@@ -146,10 +145,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="291" />
-    <option name="y" value="199" />
-    <option name="width" value="1364" />
-    <option name="height" value="928" />
+    <option name="x" value="102" />
+    <option name="y" value="73" />
+    <option name="width" value="1483" />
+    <option name="height" value="1110" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -298,7 +297,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1656834458389" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1656835168003" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -505,10 +504,10 @@
     <option name="totallyTimeSpent" value="3320000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="291" y="199" width="1364" height="928" extended-state="0" />
+    <frame x="102" y="73" width="1483" height="1110" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2806354" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25676614" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -517,7 +516,7 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.46506023" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38142294" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39910313" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -979,25 +978,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/complexmodel/Store.java">
+    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/inner/BankTeller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="-1593">
+          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1462#1463#0" expanded="true" />
-            <element signature="e#1494#1495#0" expanded="true" />
+            <element signature="e#1658#1659#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/inner/BankTeller.java">
+    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/complexmodel/Store.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="104" column="49" selection-start-line="104" selection-start-column="49" selection-end-line="104" selection-end-column="49" />
+        <state relative-caret-position="127">
+          <caret line="74" column="52" selection-start-line="74" selection-start-column="52" selection-end-line="74" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1658#1659#0" expanded="true" />
+            <element signature="e#1462#1463#0" expanded="true" />
+            <element signature="e#1494#1495#0" expanded="true" />
           </folding>
         </state>
       </provider>
