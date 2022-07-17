@@ -24,6 +24,16 @@ import java.util.Collection;
  */
 public class Generators {
 
+    /**
+     * 通过调用Generator实现类的next()方法，不断创建类型为T的对象
+     * 然后把新创建的T对象放到集合coll中
+     *
+     * @param coll 集合(集合中每个元素为类型为T的对象)
+     * @param gen  实现了Generator接口的对象
+     * @param n    要往集合中塞多少对象
+     * @param <T>
+     * @return
+     */
     public static <T> Collection<T> fill(Collection<T> coll,
                                          Generator<T> gen, int n){
         for (int i = 0; i < n; i++) {

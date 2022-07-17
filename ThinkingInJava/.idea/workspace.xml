@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3121bccf-5452-4152-a6ea-f1f4ca5acb6a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/erasure/ErasedTypeEquivalence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doc/Thinking in java.docx" beforeDir="false" afterPath="$PROJECT_DIR$/doc/Thinking in java.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/complexmodel/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/complexmodel/Store.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,16 +16,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/complexmodel/Store.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="74" column="52" selection-start-line="74" selection-start-column="52" selection-end-line="74" selection-end-column="52" />
+            <state relative-caret-position="347">
+              <caret line="84" column="43" lean-forward="true" selection-start-line="84" selection-start-column="43" selection-end-line="84" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1462#1463#0" expanded="true" />
                 <element signature="e#1494#1495#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/erasure/ErasedTypeEquivalence.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -78,7 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/containerInDepth/FillList.java" />
         <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/containerInDepth/CountIntegerList.java" />
         <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/containerInDepth/CountingMapData.java" />
         <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/InterfaceExtractorProcessor.java" />
@@ -129,6 +137,7 @@
         <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/methods/GenericVars.java" />
         <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/inner/BankTeller.java" />
         <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/complexmodel/Store.java" />
+        <option value="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/erasure/ErasedTypeEquivalence.java" />
       </list>
     </option>
   </component>
@@ -211,59 +220,7 @@
               <item name="nbcb" type="462c0819:PsiDirectoryNode" />
               <item name="thinkingInJava" type="462c0819:PsiDirectoryNode" />
               <item name="generics" type="462c0819:PsiDirectoryNode" />
-              <item name="complexmodel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ThinkingInJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="nbcb" type="462c0819:PsiDirectoryNode" />
-              <item name="thinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="generics" type="462c0819:PsiDirectoryNode" />
-              <item name="complexmodel" type="462c0819:PsiDirectoryNode" />
-              <item name="Store.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="ThinkingInJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="nbcb" type="462c0819:PsiDirectoryNode" />
-              <item name="thinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="generics" type="462c0819:PsiDirectoryNode" />
-              <item name="inner" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ThinkingInJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="nbcb" type="462c0819:PsiDirectoryNode" />
-              <item name="thinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="generics" type="462c0819:PsiDirectoryNode" />
-              <item name="inner" type="462c0819:PsiDirectoryNode" />
-              <item name="BankTeller.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="ThinkingInJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="nbcb" type="462c0819:PsiDirectoryNode" />
-              <item name="thinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="generics" type="462c0819:PsiDirectoryNode" />
-              <item name="methods" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ThinkingInJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="nbcb" type="462c0819:PsiDirectoryNode" />
-              <item name="thinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="generics" type="462c0819:PsiDirectoryNode" />
-              <item name="simple" type="462c0819:PsiDirectoryNode" />
+              <item name="erasure" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ThinkingInJava" type="b2602c69:ProjectViewProjectNode" />
@@ -297,7 +254,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1656835168003" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1656857640733" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -329,7 +286,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BankTeller">
+  <component name="RunManager" selected="Application.ErasedTypeEquivalence">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -350,13 +307,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Generators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nbcb.thinkingInJava.generics.methods.Generators" />
+    <configuration name="ErasedTypeEquivalence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nbcb.thinkingInJava.generics.erasure.ErasedTypeEquivalence" />
       <module name="ThinkingInJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.nbcb.thinkingInJava.generics.methods.*" />
+          <option name="PATTERN" value="com.nbcb.thinkingInJava.generics.erasure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -364,8 +321,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nbcb.thinkingInJava.generics.methods.GenericMethods" />
+    <configuration name="Generators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nbcb.thinkingInJava.generics.methods.Generators" />
       <module name="ThinkingInJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -436,19 +393,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.GenericMethods" />
       <item itemvalue="Application.Generators" />
       <item itemvalue="Application.GenericVars" />
       <item itemvalue="Application.BankTeller" />
       <item itemvalue="Application.Store" />
+      <item itemvalue="Application.ErasedTypeEquivalence" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ErasedTypeEquivalence" />
         <item itemvalue="Application.BankTeller" />
         <item itemvalue="Application.Store" />
         <item itemvalue="Application.GenericVars" />
         <item itemvalue="Application.Generators" />
-        <item itemvalue="Application.GenericMethods" />
       </list>
     </recent_temporary>
   </component>
@@ -507,7 +464,7 @@
     <frame x="102" y="73" width="1483" height="1110" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25676614" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25676614" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -516,7 +473,7 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38142294" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38142294" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39910313" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -571,13 +528,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/net/mindview/atunit/AtUnit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/annotations/junit/AtUnitComposition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -991,13 +941,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/complexmodel/Store.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="74" column="52" selection-start-line="74" selection-start-column="52" selection-end-line="74" selection-end-column="52" />
+        <state relative-caret-position="347">
+          <caret line="84" column="43" lean-forward="true" selection-start-line="84" selection-start-column="43" selection-end-line="84" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1462#1463#0" expanded="true" />
             <element signature="e#1494#1495#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/erasure/ErasedTypeEquivalence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
         </state>
       </provider>
     </entry>
