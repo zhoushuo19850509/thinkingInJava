@@ -9,8 +9,12 @@ public class Mixins {
         Mixin mixin2 = new Mixin();
         mixin2.setValue("mixin2 testing ...");
 
-        System.out.println(mixin1.getValue() + " " + mixin1.getSerialNumber() + " " + mixin1.getStamp());
-        System.out.println(mixin2.getValue() + " " + mixin2.getSerialNumber() + " " + mixin2.getStamp());
+        System.out.println(mixin1.getValue() + " " +
+                mixin1.getSerialNumber() + " " +
+                mixin1.getStamp());
+        System.out.println(mixin2.getValue() + " " +
+                mixin2.getSerialNumber() + " " +
+                mixin2.getStamp());
 
 
     }

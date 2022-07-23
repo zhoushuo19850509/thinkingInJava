@@ -9,6 +9,8 @@
     <file url="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/typeInformation/pets/ForNameCreator.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/typeInformation/pets/PetCount.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/typeInformation/proxy/SelectingMethods.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/typeInformation/proxy/SimpleDynamicProxy.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/typeInformation/proxy/SimpleProxyDemo.java" charset="GBK" />
     <file url="PROJECT" charset="GBK" />
   </component>
 </project>
