@@ -16,6 +16,17 @@ import java.util.Map;
  *
  */
 
+/**
+ * 先定义一个InvocationHandler实现类
+ * 这个InvocationHandler实现的功能是这样的：
+ * 1.constructor中传入一对对的<实现类,接口>
+ * 2.创建一个static方法：newInstance()
+ *   这个方法负责生成一个动态代理类
+ *   这个动态代理类包含<实现类,接口>中所有接口的方法
+ *   这样，这个动态代理类就实现了类似mixin的功能：
+ *   整合了一系列对象，并且可以调用这些对象的所有方法
+ *
+ */
 class MixinProxy implements InvocationHandler{
 
 
@@ -27,11 +38,11 @@ class MixinProxy implements InvocationHandler{
      * 1.遍历参数传进来的一组implementation/interface
      * 2.分析各个interface中所有的method，
      * 3.然后组装一个map，
-     *   map/key内容：method name,
-     *   map/value内容：该method所在的interface对应的implementation
+     *   map/key：method name,
+     *   map/value：该method所在的interface对应的implementation
      *
      *   我们举一个实例，比如：
-     *   new MixinProxy(new BasicImpl(), Basic.class)
+     *   new MixinProxy(TwoTuple<new BasicImpl(), Basic.class>)
      *   我们知道Basic接口包含两个方法： getValue()/setValue()
      *   那么constructor做的事情就是往deletegatesByMethods添加如下内容：
      *   <"getValue",BasicImpl对象>
@@ -88,10 +99,13 @@ class MixinProxy implements InvocationHandler{
      * 在Java自带的Proxy.newInstance()基础上，做一些调整
      *
      * pairs啥意思，我们在constructor中已经说明了
-     * 这个方法做了哪些事情呢？
-     * 1.
+     * newInstance()方法做了哪些事情呢？
+     * 1.从pairs中随便找一组(第一组)，然后找这组中第一个对象的classLoader对象
+     *   作为Proxy.newProxyInstance()的第1个参数
+     *
      * 2.收集整理pairs中所有interface，
      *   作为Proxy.newProxyInstance()的第2个参数；
+     *
      * 3.把我们自定义的InvocationHandler(MixinProxy)
      *   作为Proxy.newProxyInstance()的第3个参数
      *

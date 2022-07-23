@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3121bccf-5452-4152-a6ea-f1f4ca5acb6a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/mixins/proxy/DynamicProxyMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/Thinking in java.docx" beforeDir="false" afterPath="$PROJECT_DIR$/doc/Thinking in java.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/mixins/basic/Mixins.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/mixins/basic/Mixins.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UML/generic-Mixins-decorator.uxf" beforeDir="false" afterPath="$PROJECT_DIR$/UML/generic-Mixins-decorator.uxf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UML/generics-Mixins.uxf" beforeDir="false" afterPath="$PROJECT_DIR$/UML/generics-Mixins.uxf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/mixins/proxy/DynamicProxyMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/mixins/proxy/DynamicProxyMixin.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/mixins/proxy/DynamicProxyMixin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="132" column="1" lean-forward="true" selection-start-line="132" selection-start-column="1" selection-end-line="132" selection-end-column="1" />
+            <state relative-caret-position="560">
+              <caret line="131" column="45" selection-start-line="131" selection-start-column="34" selection-end-line="131" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,10 +65,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/simple/TwoTuple.java">
+        <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/mixins/basic/Mixins.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+            <state relative-caret-position="330">
+              <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/mixins/basic/Mixin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+              <folding>
+                <element signature="e#331#332#0" expanded="true" />
+                <element signature="e#391#392#0" expanded="true" />
+                <element signature="e#435#436#0" expanded="true" />
+                <element signature="e#485#486#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -209,9 +222,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="278" />
-    <option name="y" value="137" />
-    <option name="width" value="1483" />
+    <option name="x" value="67" />
+    <option name="y" value="124" />
+    <option name="width" value="1278" />
     <option name="height" value="1110" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -318,18 +331,6 @@
               <item name="nbcb" type="462c0819:PsiDirectoryNode" />
               <item name="thinkingInJava" type="462c0819:PsiDirectoryNode" />
               <item name="generics" type="462c0819:PsiDirectoryNode" />
-              <item name="mixins" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="DynamicProxyMixin.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="ThinkingInJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="nbcb" type="462c0819:PsiDirectoryNode" />
-              <item name="thinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="generics" type="462c0819:PsiDirectoryNode" />
               <item name="simple" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -390,7 +391,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1658580118604" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1658582789219" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -599,10 +600,10 @@
     <option name="totallyTimeSpent" value="3320000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="278" y="137" width="1483" height="1110" extended-state="0" />
+    <frame x="67" y="124" width="1278" height="1110" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24705066" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2880259" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -955,26 +956,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/mixins/basic/Mixin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/mixins/basic/Mixins.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/mixins/decorate/SerialNumbered.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -1031,20 +1012,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/mixins/decorate/Decorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/mixins/decorate/Decoration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/mixins/decorate/TimeStamped.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -1056,10 +1023,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/mixins/basic/Mixins.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/mixins/basic/Mixin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding>
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/mixins/decorate/Decoration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/mixins/decorate/Decorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/nbcb/thinkingInJava/generics/mixins/proxy/DynamicProxyMixin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="132" column="1" lean-forward="true" selection-start-line="132" selection-start-column="1" selection-end-line="132" selection-end-column="1" />
+        <state relative-caret-position="560">
+          <caret line="131" column="45" selection-start-line="131" selection-start-column="34" selection-end-line="131" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

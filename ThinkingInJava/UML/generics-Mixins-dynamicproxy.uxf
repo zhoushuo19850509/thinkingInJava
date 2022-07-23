@@ -4,7 +4,7 @@
   <element>
     <id>UMLInterface</id>
     <coordinates>
-      <x>210</x>
+      <x>410</x>
       <y>130</y>
       <w>120</w>
       <h>100</h>
@@ -18,7 +18,7 @@ getStamp()
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>180</x>
+      <x>380</x>
       <y>350</y>
       <w>180</w>
       <h>30</h>
@@ -29,7 +29,7 @@ getStamp()
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>260</x>
+      <x>460</x>
       <y>200</y>
       <w>110</w>
       <h>170</h>
@@ -41,7 +41,7 @@ implements</panel_attributes>
   <element>
     <id>UMLInterface</id>
     <coordinates>
-      <x>420</x>
+      <x>620</x>
       <y>130</y>
       <w>140</w>
       <h>100</h>
@@ -55,7 +55,7 @@ getSerialNumber()
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>400</x>
+      <x>600</x>
       <y>350</y>
       <w>180</w>
       <h>30</h>
@@ -66,7 +66,7 @@ getSerialNumber()
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>480</x>
+      <x>680</x>
       <y>200</y>
       <w>110</w>
       <h>170</h>
@@ -78,7 +78,7 @@ implements</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>660</x>
+      <x>860</x>
       <y>350</y>
       <w>180</w>
       <h>30</h>
@@ -89,7 +89,7 @@ implements</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>740</x>
+      <x>940</x>
       <y>200</y>
       <w>110</w>
       <h>170</h>
@@ -101,7 +101,7 @@ implements</panel_attributes>
   <element>
     <id>UMLInterface</id>
     <coordinates>
-      <x>720</x>
+      <x>920</x>
       <y>130</y>
       <w>60</w>
       <h>120</h>
@@ -116,93 +116,106 @@ get
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>490</x>
-      <y>720</y>
-      <w>100</w>
+      <x>280</x>
+      <y>550</y>
+      <w>200</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>Mixin</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>530</x>
-      <y>540</y>
-      <w>230</w>
-      <h>200</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;-
-extends</panel_attributes>
-    <additional_attributes>210.0;10.0;10.0;180.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>650</x>
-      <y>520</y>
-      <w>180</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>BasicImpl</panel_attributes>
+    <panel_attributes>MixinProxy.newInstance()</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>390</x>
-      <y>520</y>
+      <x>560</x>
+      <y>470</y>
       <w>180</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>SerialNumbered</panel_attributes>
+    <panel_attributes>&lt;BasicImpl,Basic&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>560</x>
+      <y>690</y>
+      <w>180</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>&lt;SerialNumberedImpl,SerialNumbered&gt;</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>210</x>
-      <y>540</y>
-      <w>350</w>
-      <h>200</h>
+      <x>470</x>
+      <y>550</y>
+      <w>110</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.
-implements</panel_attributes>
-    <additional_attributes>10.0;10.0;330.0;180.0</additional_attributes>
+引入</panel_attributes>
+    <additional_attributes>90.0;70.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>150</x>
-      <y>520</y>
-      <w>180</w>
+      <x>560</x>
+      <y>600</y>
+      <w>290</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>TimeStamped</panel_attributes>
+    <panel_attributes>&lt;TimeStampedImpl,TimeStamped.class&gt;</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>480</x>
-      <y>540</y>
-      <w>130</w>
-      <h>200</h>
+      <x>470</x>
+      <y>550</y>
+      <w>110</w>
+      <h>180</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.
-implements</panel_attributes>
-    <additional_attributes>10.0;10.0;60.0;180.0</additional_attributes>
+引入</panel_attributes>
+    <additional_attributes>90.0;160.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>50</x>
-      <y>40</y>
-      <w>220</w>
-      <h>40</h>
+      <x>80</x>
+      <y>50</y>
+      <w>370</w>
+      <h>70</h>
     </coordinates>
-    <panel_attributes>Mixin方案1: 新建一个Mixin类,
-实现所有要mixin的接口和方法</panel_attributes>
+    <panel_attributes>Mixin方案3: 
+通过MixinProxy.newInstance()类,创建一个动态代理类
+这个动态代理类包含了所有要mixin的类和对应类的
+我们可以通过这个动态代理类,访问mixin的所有的类</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>470</x>
+      <y>470</y>
+      <w>110</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.
+引入</panel_attributes>
+    <additional_attributes>90.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>270</x>
+      <y>510</y>
+      <w>90</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>动态代理类</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>

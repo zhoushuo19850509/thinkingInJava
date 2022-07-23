@@ -84,4 +84,18 @@ extends</panel_attributes>
 extends</panel_attributes>
     <additional_attributes>190.0;10.0;10.0;150.0</additional_attributes>
   </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>30</x>
+      <y>30</y>
+      <w>390</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Mixin方案2: 
+新建一个装饰类,这个装饰类通过继承的方式,
+引入了要mixin的方法
+然后其他类再通过继承装饰类的方式,间接获取要访问的方法.</panel_attributes>
+    <additional_attributes/>
+  </element>
 </diagram>
