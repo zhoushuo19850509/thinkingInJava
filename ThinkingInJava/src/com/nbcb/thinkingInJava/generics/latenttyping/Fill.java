@@ -1,10 +1,22 @@
 package com.nbcb.thinkingInJava.generics.latenttyping;
 
-import javax.security.auth.login.Configuration;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
+/**
+ * 这个代码的意思是这样的
+ * Fill.fill()指定往某个集合类添加元素
+ * 那么，我们只能往集合类型添加元素，如果不是集合类就不行
+ * (比如我们例子中的SimpleQueue，SimpleQueue只实现了Iterable接口)
+ */
+
+
+/**
+ * 这个类的作用是定义一个static方法fill()
+ * 负责往某个集合类中添加某种类型的对象
+ *
+ */
 public class Fill {
     public static <T> void fill(Collection<T> collection,
                                 Class<? extends T> classToken, int size){
@@ -22,7 +34,9 @@ public class Fill {
     }
 }
 
-
+/**
+ * example class1 : base class
+ */
 class Contrast{
     private static long counter = 0;
     private final long id = counter++;
@@ -35,6 +49,9 @@ class Contrast{
     }
 }
 
+/**
+ * example class2 : child class
+ */
 class TitleTransfer extends Contrast{}
 
 class FillTest{
