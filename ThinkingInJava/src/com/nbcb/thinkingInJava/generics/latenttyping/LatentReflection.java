@@ -6,6 +6,7 @@ import java.lang.reflect.Method;
 
 
 /**
+ *
  * 这个文件主要是为了说明如何通过反射的方式
  * 解决latent type的问题
  *
@@ -40,6 +41,7 @@ class CommunicateReflectivity{
     /**
      * 定义一个static 方法，这个方法通过反射的方式
      * 调用speaker对象中指定的方法
+     * 如果我们想要调用的方法在对象中不存在，就打印错误信息
      */
     public static void perform(Object speaker) {
 

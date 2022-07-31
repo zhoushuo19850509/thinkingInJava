@@ -2,15 +2,15 @@ package com.nbcb.thinkingInJava.interfaces;
 
 
 /*
- * ÕâÊÇÒ»¸ö¼Ì³ĞµÄÀı×Ó
+ * ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½Ì³Ğµï¿½ï¿½ï¿½ï¿½ï¿½
  * base class: Filter
- * FilterÀàºÍApply.javaÖĞµÄProcessorÀàÓĞÏàËÆµÄ·½·¨
- * µ«ÊÇ£¬È´ÎŞ·¨Í¨¹ıApply.process(Processor p,Object s)Õâ¸ö·½·¨À´µ÷ÓÃ
- * Òò´ËÕâ¸öÀı×ÓÎªÁËËµÃ÷¼Ì³ĞµÄ¾ÖÏŞ
+ * Filterï¿½ï¿½ï¿½ApplyTest.javaï¿½Ğµï¿½Processorï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÆµÄ·ï¿½ï¿½ï¿½
+ * ï¿½ï¿½ï¿½Ç£ï¿½È´ï¿½Ş·ï¿½Í¨ï¿½ï¿½Apply.process(Processor p,Object s)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½Ëµï¿½ï¿½ï¿½Ì³ĞµÄ¾ï¿½ï¿½ï¿½
  * */
 public class Waveform {
 	private static long counter;
-	private final long id = counter++;  // Õâ¸öid¼ÇÂ¼ÁËWaveform¶ÔÏóÊµÀı»¯µÄÊıÁ¿ £¬Waveform¶ÔÏó Ã¿ÊµÀı»¯Ò»´Î£¬¼ÆÊı+1
+	private final long id = counter++;  // ï¿½ï¿½ï¿½idï¿½ï¿½Â¼ï¿½ï¿½Waveformï¿½ï¿½ï¿½ï¿½Êµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Waveformï¿½ï¿½ï¿½ï¿½ Ã¿Êµï¿½ï¿½ï¿½ï¿½Ò»ï¿½Î£ï¿½ï¿½ï¿½ï¿½ï¿½+1
 	public String toString(){
 		return "Waveform " + id;
 	}
