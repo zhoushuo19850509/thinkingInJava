@@ -20,13 +20,13 @@ class BerylliumSphere{
 public class ContianerComparision {
 	
 	public static void main(String[] args){
-		// Array containing objects
 		BerylliumSphere[] sphere = new BerylliumSphere[10];
-//		System.out.println(sphere);
+
 		
 		for(int i = 0 ; i < 5; i++){
 			sphere[i] = new BerylliumSphere();
 		}
+		// 打印数组
 		System.out.println(Arrays.toString(sphere));
 		System.out.println(sphere[4]);
 		
@@ -35,6 +35,7 @@ public class ContianerComparision {
 		for(int i = 0 ; i < 5 ; i++){
 			sphereList.add(new BerylliumSphere());
 		}
+		// 打印List
 		System.out.println(sphereList);
 		System.out.println(sphereList.get(4));
 		
