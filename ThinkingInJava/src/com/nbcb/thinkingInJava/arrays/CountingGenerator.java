@@ -2,6 +2,10 @@ package com.nbcb.thinkingInJava.arrays;
 
 import com.nbcb.thinkingInJava.generics.inferfaces.Generator;
 
+/**
+ * object generator in order
+ * 创建一个object array ,按顺序创建
+ */
 public class CountingGenerator {
 
     /**
@@ -39,6 +43,29 @@ public class CountingGenerator {
         }
     }
 
+    public static class CountString implements Generator<java.lang.String>{
+        Generator<java.lang.Character> cg = new Character();
+
+        private int length = 7;
+
+        public CountString() {
+        }
+
+        public CountString(int length) {
+            this.length = length;
+        }
+
+        @Override
+        public java.lang.String next() {
+
+            char[] buff = new char[length];
+            for (int i = 0; i < length; i++) {
+                buff[i] = cg.next();
+            }
+            return new java.lang.String(buff);
+        }
+    }
+
 
 
     /**
@@ -46,6 +73,7 @@ public class CountingGenerator {
      * @param args
      */
     public static void main(String[] args) {
+
         Generator<java.lang.Boolean> generator1 = new CountingGenerator.Boolean();
         for (int i = 0; i < 10; i++) {
             System.out.println(generator1.next());
@@ -59,6 +87,11 @@ public class CountingGenerator {
         Generator<java.lang.Character> generator3 = new CountingGenerator.Character();
         for (int i = 0; i < 10; i++) {
             System.out.println(generator3.next());
+        }
+
+        Generator<java.lang.String> generator4 = new CountingGenerator.CountString(5);
+        for (int i = 0; i < 10; i++) {
+            System.out.println(generator4.next());
         }
 
     }
