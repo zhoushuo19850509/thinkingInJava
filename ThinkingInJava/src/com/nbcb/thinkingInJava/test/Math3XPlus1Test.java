@@ -14,11 +14,11 @@ public class Math3XPlus1Test {
 
     public static void main(String[] args) {
 
-        int n = 1000000;
+        int n = 1000000000;
         int maxCount = 0;
         String maxNumbers = "";
         int maxNumber = 0;
-        for (int i = 4; i < n; i++) {
+        for (int i = n; i < n + 1000000; i++) {
             Result result = deal1(new BigInteger(String.valueOf(i)));
             if(result.getCount() > maxCount){
                 maxCount = result.getCount();

@@ -8,7 +8,8 @@ import java.util.Random;
  * function返回值是一个array
  *
  * 这个案例的场景非常实用，就是从一个长度为A的array中，取出n个元素(不能重复取，n < A)
- * 这个代码非常精简，但是实际运行起来，总是取一样的结果，不知道为啥
+ * 这个代码非常精简，但是实际运行起来，总是取一样的结果，
+ * 不知道为啥，应该和Random类的运行机制有关
  */
 public class IceCream {
     private static Random random = new Random(47);
