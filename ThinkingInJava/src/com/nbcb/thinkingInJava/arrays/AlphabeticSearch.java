@@ -27,7 +27,5 @@ public class AlphabeticSearch {
                 System.out.println(str);
             }
         }
-
-
     }
 }
