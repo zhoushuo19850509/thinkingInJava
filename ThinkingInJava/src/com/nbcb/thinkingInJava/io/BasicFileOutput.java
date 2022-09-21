@@ -9,8 +9,8 @@ import java.io.*;
 public class BasicFileOutput {
 
     public static void main(String[] args) {
-        String targetFilePath = "/Users/athena/Documents/delete/target.txt";
-        String srcFilePath = "/Users/athena/Documents/delete/a.txt";
+        String targetFilePath = "/Users/zhoushuo/Documents/delete/target.txt";
+        String srcFilePath = "/Users/zhoushuo/Documents/delete/a.txt";
 
         // 先读取源文件
         try {
