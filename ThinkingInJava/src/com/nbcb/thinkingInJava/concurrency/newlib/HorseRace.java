@@ -1,8 +1,5 @@
 package com.nbcb.thinkingInJava.concurrency.newlib;
 
-
-import sun.security.ssl.HandshakeOutStream;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -14,7 +11,8 @@ import java.util.concurrent.Executors;
 /**
  * 赛马的场景，主要是为了说明 CyclicBarrier 的用法
  * CyclicBarrier其实和CountDownLatch差不多
- * 就是很多线程在跑，但是所有的线程要等待CyclicBarrier中定义的动作，只有等待CyclicBarrier中定义的动作完成之后，各个线程才能开始继续跑
+ * 就是很多线程在跑，但是所有的线程要等待CyclicBarrier中定义的动作，
+ * 只有等待CyclicBarrier中定义的动作完成之后，各个线程才能开始继续跑
  * 区别在于，CyclicBarrier可以重复使用
  *
  * 具体可以看下面这个赛马的例子，非常有趣

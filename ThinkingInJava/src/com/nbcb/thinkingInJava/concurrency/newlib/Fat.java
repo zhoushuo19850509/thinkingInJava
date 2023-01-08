@@ -1,5 +1,7 @@
 package com.nbcb.thinkingInJava.concurrency.newlib;
 
+import com.nbcb.thinkingInJava.util.IdGenerator;
+
 /**
  *
  * Fat这个对象，主要是模拟object pool中的一个对象资源
@@ -9,8 +11,8 @@ package com.nbcb.thinkingInJava.concurrency.newlib;
  */
 public class Fat {
     private volatile double d;
-    private static int counter = 0 ;
-    private final int id = counter++;
+//    private static int counter = 0 ;
+    private int id = 0;
 
     /**
      * constructor 主要是添加一个比较耗费资源的操作
@@ -20,6 +22,7 @@ public class Fat {
         for (int i = 0; i < 10000; i++) {
             d += ( Math.PI + Math.E ) / (double)i;
         }
+        this.id = IdGenerator.generateId();
     }
 
     public void operate(){

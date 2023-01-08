@@ -19,11 +19,11 @@ class TaskWithResult implements Callable<String>{
 
     public String call(){
         // 这里尝试对每个线程都sleep一段时间，用来探索Future的用法
-//        try{
-//            Thread.sleep(1000 * (5 - id));
-//        }catch(Exception e){
-//            e.printStackTrace();
-//        }
+        try{
+            Thread.sleep(1000 * (5 - id));
+        }catch(Exception e){
+            e.printStackTrace();
+        }
 
         return "the result is : " + id;
     }
