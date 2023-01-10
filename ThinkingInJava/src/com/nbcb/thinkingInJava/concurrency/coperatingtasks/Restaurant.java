@@ -12,9 +12,6 @@ package com.nbcb.thinkingInJava.concurrency.coperatingtasks;
  * 后续我们用到这个模型，进行线程间编程的时候，要特别注意，需要用到notifyAll()方法通知其他线程
  * 否则就算其他线程通过while()不断地探测，也探测不到
  */
-
-import com.sun.xml.internal.ws.util.ReadAllStream;
-
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
@@ -80,13 +77,10 @@ class WaitPerson implements Runnable{
                     restaurant.meal = null;
                     restaurant.chef.notifyAll();
                 }
-
-
             }
         }catch (InterruptedException e){
             System.out.println("wait person interrupted");
         }
-
     }
 }
 
@@ -142,15 +136,10 @@ class Chef implements Runnable{
                  * 做完一道菜，Chef就休息一会儿
                  */
                 Thread.sleep(1000);
-
             }
-
-
         } catch (InterruptedException e) {
             System.out.println("order up ! chef finish today's task!");
         }
-
-
     }
 }
 

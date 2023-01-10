@@ -28,7 +28,6 @@ public class LiftOff implements Runnable{
 		while(countDown-- > 0){
 			System.out.println(status());
 			Thread.yield();    // 说明当前的线程事情暂时做完了，资源可以留给其他线程了
-
 		}
 	}
 	
