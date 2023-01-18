@@ -1,4 +1,4 @@
-package com.nbcb.thinkingInJava.concurrency.coperatingtasks.waxomatic2;
+package com.nbcb.thinkingInJava.concurrency.coperatingtasks;
 
 
 /**
@@ -135,6 +135,7 @@ class Toaster implements Runnable{
 
 /**
  * 线程2 这个线程的工作是给吐司涂上奶油
+ * 放到队列2： butteredQueue
  */
 class Butterer implements Runnable{
 
