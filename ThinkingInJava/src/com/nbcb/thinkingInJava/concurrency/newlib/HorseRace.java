@@ -106,6 +106,8 @@ public class HorseRace {
 
     /**
      * constructor
+     * 1.定义个CyclicBarrier实例；
+     * 2.启动各个Horce异步线程
      * @param nHorses  有多少匹小马参加比赛
      * @param pause 没跑一次休息多少时间(ms)
      */

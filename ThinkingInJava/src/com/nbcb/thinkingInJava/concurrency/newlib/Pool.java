@@ -7,13 +7,25 @@ import java.util.concurrent.Semaphore;
 
 /**
  * 这个例子主要是通过一个object pool(对象池)的概念，说明Semaphore的用法
- * Semaphore的意思是：
+ * Semaphore翻译过来就是"信号量"，啥意思呢？
+ * 就是我们在并发场景下，并发线程会同时访问某个共享资源。
+ * 比如我们在Pool.java中，共享资源就是Pool中的各个对象
+ * 我们知道，并发线程访问共享资源的时候，可能会造成各种问题。
+ * 怎么解决呢？Semaphore就是一种解决方案。
+ * 比如并发线程要从Pool中获取一个对象，为了避免并发问题，
+ * 就先调用Semaphore.acquire()方法，获取一个资源；
+ * 把资源放回Pool之后，再调用Semaphore.release()方法释放资源；
+ *
+ * 这样，就把我们业务场景中的并发问题，转移为对Semaphore的操作
  */
 public class Pool<T> {
     private int size; // pool size
-    private List<T> items = new ArrayList<T>(); // 这个List保存的是object pool中所有的对象
-    private volatile boolean[] checkOut; // 所有当前检出的资源
-    private Semaphore available;  // 可用的Semaphore资源
+    // 这个List保存的是object pool中所有的对象
+    private List<T> items = new ArrayList<T>();
+    // 所有当前检出的资源
+    private volatile boolean[] checkOut;
+    // 可用的Semaphore资源
+    private Semaphore available;
 
     /**
      * constructor 主要是做一些object pool的初始化动作
@@ -24,7 +36,7 @@ public class Pool<T> {
         this.size = size;
 
         /**
-         * 默认所有的checkOut状态都是false
+         * 默认所有的checkOut状态都是false(未检出)
          */
         checkOut = new boolean[size];
 
