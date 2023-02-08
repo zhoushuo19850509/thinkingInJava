@@ -11,10 +11,15 @@ import java.util.concurrent.Executors;
 /**
  * 赛马的场景，主要是为了说明 CyclicBarrier 的用法
  * CyclicBarrier其实和CountDownLatch差不多
- * 就是很多线程在跑，但是所有的线程要等待CyclicBarrier中定义的动作，
- * 只有等待CyclicBarrier中定义的动作完成之后，各个线程才能开始继续跑
- * 区别在于，CyclicBarrier可以重复使用
+ * CyclicBarrier就好比有若干任务在并行地跑，必须等到这些任务全部完成后，
+ * 才能做下一个动作。
  *
+ * CyclicBarrier和CountDownLatch不同点在于：
+ * 1.CyclicBarrier可以重复使用，而CountDownLatch只能用一次；
+ * 2.CyclicBarrier对象初始化的时候，可以定义的动作，
+ *   等到一轮CyclicBarrier结束后，会执行这个动作
+ *
+ * @业务场景
  * 具体可以看下面这个赛马的例子，非常有趣
  */
 
