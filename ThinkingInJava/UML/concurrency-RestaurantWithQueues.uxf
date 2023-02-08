@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>370</x>
+      <y>460</y>
+      <w>300</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Customer
+--
+-waitPerson: WaitPerson
+-placeSetting: SynchronousQueue&lt;Plate&gt;
+--
++deliver()
++run()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>550</x>
+      <y>340</y>
+      <w>110</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.
+implements</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLInterface</id>
+    <coordinates>
+      <x>520</x>
+      <y>280</y>
+      <w>80</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>Runnable
+--
++run()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>860</x>
+      <y>260</y>
+      <w>270</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>WaitPerson
+--
++filledOrders: BlockingQueue&lt;Plate&gt;
+-restaurant: Restaurant
+--
++placeOrder()
++run()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>950</x>
+      <y>190</y>
+      <w>110</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.
+implements</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLInterface</id>
+    <coordinates>
+      <x>920</x>
+      <y>130</y>
+      <w>80</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>Runnable
+--
++run()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>800</x>
+      <y>1030</y>
+      <w>270</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Chef
+--
+-restaurant: Restaurant
+--
++run()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>890</x>
+      <y>900</y>
+      <w>110</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.
+implements</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLInterface</id>
+    <coordinates>
+      <x>860</x>
+      <y>870</y>
+      <w>80</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>Runnable
+--
++run()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1350</x>
+      <y>560</y>
+      <w>440</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Restaurant
+--
+-waitPersonList: List&lt;WaitPerson&gt;
+-chefList: List&lt;Chef&gt;
+-executorService: RestExecutorServiceaurant
+-orders: BlockingQueue&lt;Order&gt;
+--
++Restaurant(int nwaitPerson, int nChef, ExecutorService exec)
++run()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1540</x>
+      <y>440</y>
+      <w>110</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.
+implements</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLInterface</id>
+    <coordinates>
+      <x>1510</x>
+      <y>370</y>
+      <w>80</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>Runnable
+--
++run()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>820</x>
+      <y>590</y>
+      <w>270</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Order
+--
+-customer: Customer
+-waitPerson: WaitPerson
+-food: Food
+--
++getCustomer()
++getWaitPerson()
++getFood()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>320</x>
+      <y>800</y>
+      <w>270</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Plate
+--
+-order: Order
+-food: Food
+--
++getOrder()
++getFood()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>660</x>
+      <y>300</y>
+      <w>220</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1
+m2=0..n</panel_attributes>
+    <additional_attributes>200.0;10.0;10.0;180.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>120</x>
+      <y>310</y>
+      <w>340</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Customer(客户类)
+--
+Customer类做的事情,主要由run()异步线程完成:
+1.调用WaitPerson点单;
+2.访问WaitPerson,看看WaitPerson的Plate队列是否有自己下订的菜
+如果有的话,就从Plate队列中取出厨师已经做好的菜,并开始吃...
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1090</x>
+      <y>350</y>
+      <w>340</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-&gt;
+m1=1
+m2=1..n</panel_attributes>
+    <additional_attributes>320.0;210.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1060</x>
+      <y>680</y>
+      <w>430</w>
+      <h>410</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-&gt;
+m1=1
+m2=1..n</panel_attributes>
+    <additional_attributes>410.0;10.0;10.0;390.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>740</x>
+      <y>1120</y>
+      <w>440</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Chef(厨师类)
+--
+Chef类做的事情,主要是由run()异步线程完成的:
+1.从餐厅的Order队列中取出订单
+2.根据订单要求做菜
+3.把做完的菜以Plate的形式交给该订单对应的WaitPerson
+  (放到WaitPerson对应的Plate队列)
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1000</x>
+      <y>710</y>
+      <w>50</w>
+      <h>340</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+m1=1
+m2=1..n</panel_attributes>
+    <additional_attributes>10.0;320.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>820</x>
+      <y>20</y>
+      <w>380</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>WaitPerson(服务生类)
+--
+WaitPerson做的事情:
+1.filledOrders()方法:
+  按照Customer要求,把订单提交到餐厅
+  放到餐厅的Order队列
+2.run()异步线程:
+  定期访问自己的Plate队列,
+  把厨师做完的菜交给对应的客户
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1030</x>
+      <y>350</y>
+      <w>50</w>
+      <h>260</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+m1=0..n
+m2=1
+</panel_attributes>
+    <additional_attributes>10.0;240.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>570</x>
+      <y>550</y>
+      <w>270</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+m1=0..n
+m2=1
+</panel_attributes>
+    <additional_attributes>250.0;100.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>290</x>
+      <y>760</y>
+      <w>180</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Plate(厨师做完的一道菜)
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>580</x>
+      <y>680</y>
+      <w>260</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+m1=1
+m2=1
+</panel_attributes>
+    <additional_attributes>10.0;170.0;240.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>430</x>
+      <y>890</y>
+      <w>390</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+m1=1
+m2=1..n</panel_attributes>
+    <additional_attributes>370.0;190.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>830</x>
+      <y>560</y>
+      <w>200</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Order(客户下的订单类)
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1080</x>
+      <y>620</y>
+      <w>290</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+m1=1
+m2=1..n</panel_attributes>
+    <additional_attributes>270.0;10.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1530</x>
+      <y>870</y>
+      <w>170</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>RestaurantWithQueues
+--
+main()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>1520</x>
+      <y>940</y>
+      <w>200</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>RestaurantWithQueues
+--
+主类做的事情主要是创建一个线程池,
+并且启动Restaurant异步线程
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1610</x>
+      <y>680</y>
+      <w>50</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1
+</panel_attributes>
+    <additional_attributes>20.0;10.0;10.0;190.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>1720</x>
+      <y>400</y>
+      <w>420</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Restaurant(餐厅类)
+--
+Restaurant类做的事情:
+1.启动若干WaitPerson线程/Chef线程
+模拟餐厅开业;
+2.由run()异步线程随机创建一批Customer对象,
+每个Customer都分配一个随机的WaitPerson进行专人服务
+以此模拟客户光顾餐厅
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
