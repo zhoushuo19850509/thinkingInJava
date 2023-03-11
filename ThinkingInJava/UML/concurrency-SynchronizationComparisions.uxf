@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>30</x>
+      <y>60</y>
+      <w>300</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>这个UML主要是为了说明
+SynchronizationComparisions.java
+的整体架构
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

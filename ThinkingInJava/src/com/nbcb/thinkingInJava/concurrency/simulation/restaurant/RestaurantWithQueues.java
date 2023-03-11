@@ -184,7 +184,7 @@ class Customer implements Runnable{
                 // 从准备好的食物中挑选一个开始吃
                 System.out.println(this + " eating : " + this.placeSetting.take());
             } catch (InterruptedException e) {
-                System.out.println(this + " waiting for "+ food +"Interrupted ..");
+                System.out.println(this + " waiting for food ["+ food +"] Interrupted ..");
             }
         }
     }
@@ -246,6 +246,10 @@ class WaitPerson implements Runnable{
             }
         } catch (InterruptedException e) {
             System.out.println(this + " Interrupted ... ");
+            System.out.println("print WaitPerson's filled orders ：");
+            for(Plate plate : filledOrders){
+                System.out.println(plate);
+            }
         }
     }
 
@@ -277,15 +281,20 @@ class Chef implements Runnable{
      */
     @Override
     public void run() {
+        /**
+         * 厨师正在制作还未完成的订单
+         */
+        Order currentOrder = null;
 
         try {
             while(!Thread.interrupted()){
 
                 // 先访问Restaurant客户的点单队列
                 Order order = restaurant.orders.take();
-
+                currentOrder = order;
                 // sleep一段随机的时间，模拟厨师正在做菜
                 Thread.sleep(random.nextInt(500));
+                currentOrder = null;
 
                 // 做完菜之后，new一个Plate对象，交给负责该order的waiter
                 Food food = order.getFood();
@@ -294,6 +303,7 @@ class Chef implements Runnable{
             }
         } catch (InterruptedException e) {
             System.out.println(this + " Interrupted ...");
+            System.out.println("chef is cooking while Interrupted:  " + currentOrder);
         }
     }
 
@@ -360,6 +370,10 @@ class Restaurant implements Runnable{
             }
         } catch (InterruptedException e) {
             System.out.println("Restaurant Interrupted ...");
+            System.out.println("Restaurant has these orders not finished yet :  ");
+            for(Order order : orders){
+                System.out.println("[Restaurant] " + order);
+            }
         }
     }
 }
